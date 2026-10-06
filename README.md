@@ -24,3 +24,5 @@ Tutorials that use this repository:
 cd apps/api && npm install && npm start          # http://localhost:8080
 cd apps/web && npm install && VITE_API_URL=http://localhost:8080 npm run dev
 ```
+
+The web app shows the version the api answers with.
