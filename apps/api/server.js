@@ -5,7 +5,7 @@ import cors from "cors";
 import express from "express";
 
 const PORT = process.env.PORT || 8080;
-const VERSION = 1;
+const VERSION = 2;
 
 const app = express();
 // The data is public and read-only, so any website may call this API.
