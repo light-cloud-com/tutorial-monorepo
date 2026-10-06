@@ -3,6 +3,7 @@
 // GET /health  -> { status: "ok" }
 import cors from "cors";
 import express from "express";
+import { formatVersion } from "@tutorial/shared";
 
 const PORT = process.env.PORT || 8080;
 const VERSION = 2;
@@ -16,7 +17,7 @@ app.get("/health", (req, res) => {
 });
 
 app.get("/", (req, res) => {
-  res.json({ service: "api", version: VERSION, time: new Date().toISOString() });
+  res.json({ service: "api", version: formatVersion(VERSION), time: new Date().toISOString() });
 });
 
 app.listen(PORT, () => {

@@ -9,6 +9,7 @@
     "dev": "node --watch server.js"
   },
   "dependencies": {
+    "@tutorial/shared": "*",
     "cors": "^2.8.5",
     "express": "^5.1.0"
   }

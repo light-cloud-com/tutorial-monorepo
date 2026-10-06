@@ -1,0 +1,12 @@
+{
+  "name": "tutorial-monorepo",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build:web": "npm run build --workspace apps/web",
+    "start:api": "npm start --workspace apps/api"
+  }
+}

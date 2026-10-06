@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { PRODUCT, formatVersion } from "@tutorial/shared";
 import "./App.css";
 
 // The address of the api app. Set per environment in Light Cloud as VITE_API_URL;
@@ -23,8 +24,8 @@ export default function App() {
   return (
     <main>
       <p className="label">apps/web</p>
-      <h1>One repository, many apps</h1>
-      <p>This page is the web app. Version 2.</p>
+      <h1>{PRODUCT}</h1>
+      <p>This page is the web app, {formatVersion(2)}.</p>
       <h2>The api app answered</h2>
       {answer && <pre>{JSON.stringify(answer, null, 2)}</pre>}
       {error && <p className="error">Could not reach the api: {error}</p>}

@@ -1,0 +1,7 @@
+{
+  "name": "@tutorial/shared",
+  "version": "1.0.0",
+  "description": "Code shared by the web app and the api",
+  "type": "module",
+  "main": "index.js"
+}
