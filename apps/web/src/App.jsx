@@ -23,7 +23,7 @@ export default function App() {
   return (
     <main>
       <p className="label">apps/web</p>
-      <h1>One repository, two apps</h1>
+      <h1>One repository, many apps</h1>
       <p>This page is the web app. Version 2.</p>
       <h2>The api app answered</h2>
       {answer && <pre>{JSON.stringify(answer, null, 2)}</pre>}
