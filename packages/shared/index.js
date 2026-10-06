@@ -3,5 +3,5 @@
 export const PRODUCT = "One repository, many apps";
 
 export function formatVersion(number) {
-  return `v${number}.0`;
+  return `v${number}.1`;
 }
