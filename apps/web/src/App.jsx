@@ -24,7 +24,7 @@ export default function App() {
     <main>
       <p className="label">apps/web</p>
       <h1>One repository, two apps</h1>
-      <p>This page is the web app. Version 1.</p>
+      <p>This page is the web app. Version 2.</p>
       <h2>The api app answered</h2>
       {answer && <pre>{JSON.stringify(answer, null, 2)}</pre>}
       {error && <p className="error">Could not reach the api: {error}</p>}
