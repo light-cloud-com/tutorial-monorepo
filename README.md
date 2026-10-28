@@ -1,5 +1,7 @@
 # Deploy from a monorepo to Light Cloud
 
+[![Deploy to Light Cloud](https://light-cloud.com/button.svg)](https://console.light-cloud.com/new?repo=https://github.com/light-cloud-com/tutorial-monorepo)
+
 One repository, two apps and a shared package, deployed as separate Light Cloud apps.
 
 - `apps/web`: a React (Vite) page, served as a static site. Root directory `apps/web`. It calls the api with the address in `VITE_API_URL`.
